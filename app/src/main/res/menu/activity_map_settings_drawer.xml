@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:id="@+id/nav_my_location" android:icon="@android:drawable/ic_menu_mylocation"
+            android:title="Moja lokalizacja" />
+        <item android:id="@+id/nav_save_loc" android:icon="@android:drawable/ic_menu_save"
+            android:title="Zapisz moją lokalizacje" />
+        <item android:id="@+id/nav_remove_markers" android:icon="@android:drawable/ic_menu_delete"
+            android:title="Usuń miejsca" />
+    </group>
+
+    <item android:title="Typ mapy">
+        <menu>
+            <item android:id="@+id/nav_map_normal" android:icon="@android:drawable/ic_dialog_map"
+                android:title="Normalny" />
+            <item android:id="@+id/nav_map_hybrid" android:icon="@android:drawable/ic_dialog_map"
+                android:title="Hybrydowy" />
+            <item android:id="@+id/nav_map_satellite" android:icon="@android:drawable/ic_dialog_map"
+                android:title="Terenowy" />
+            <item android:id="@+id/nav_map_terrain" android:icon="@android:drawable/ic_dialog_map"
+                android:title="Satelitarny" />
+        </menu>
+    </item>
+
+</menu>
